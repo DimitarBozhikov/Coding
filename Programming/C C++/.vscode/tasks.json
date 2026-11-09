@@ -4,16 +4,12 @@
         {
             "label": "Build C",
             "type": "shell",
-            "command": "/Library/Developer/CommandLineTools/usr/bin/clang",
+            "command": "C:/C:/mingw64/bin.exe",
             "args": [
-                "-Wall",
-                "-Wextra",
-                "-pedantic",
-                "-std=c11",
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}.exe"
             ],
             "group": {
                 "kind": "build",
