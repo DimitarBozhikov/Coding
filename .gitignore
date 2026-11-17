@@ -1,5 +1,12 @@
+*
+!*/
+!*.*
+!.gitignore
+!Makefile
+!README
+
 *.exe
+*.out
+*.file
 .DS_Store
 .vscode/
-*.file
-*.out
