@@ -8,13 +8,12 @@ int main(void){
     for(;n>=i;i++){
         j=2;
         if(n%i==0){
-            if(i%j!=0){
+            while(i%j!=0){
                 j++;
-            }else{
-                if(j==i){
-                    printf("I = %d ;", i);
-                    c++;
-                }
+            }
+            if(j==i){
+                printf("I = %d ;", i);
+                c++;
             }
         }
     }
