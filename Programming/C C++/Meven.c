@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(){
+int main(void){
     int n,m,i;
     do {
         printf("Enter N: ");
@@ -16,7 +16,7 @@ int main(){
     if(i==1){
         printf("No");
     }else{
-        print("M =%d",m);
+        printf("M = %d",m);
     }
     return 0;
 }

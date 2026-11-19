@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+int main(void) {
     int h1,m1,h2,m2;
     printf("Enter the first time (Hour,Minute):");
     scanf("%d %d",&h1,&m1);

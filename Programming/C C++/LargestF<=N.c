@@ -14,9 +14,9 @@ int main(void){
         }
     }
     if(a>b){
-        printf("Largest fibonachi number, not larger than N is = %d", b);
+        printf("Largest fibonacci number, not larger than N is = %d", b);
     }else{
-        printf("Largest fibonachi number, not larger than N is = %d", a);
+        printf("Largest fibonacci number, not larger than N is = %d", a);
     }
     return 0;
 }

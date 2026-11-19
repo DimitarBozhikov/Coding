@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(){
+int main(void){
     int n,a,m,i;
     do{
         printf("Enter N: ");
